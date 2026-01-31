@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StroySnab | B2B</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=swap" rel="stylesheet">
+    <script src="assets/js/main.js" defer></script>
+    <meta name="description" content="Надежный партнер в строительстве">
+    <meta name="keywords"
+        content="строительство, инструменты, инструменты для строительства, строительста, стройка, стройматериалы">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="h-top">
+                <div class="h-left">
+                    <a href="index.html">
+                        <img src="assets/images/header/logo.svg" alt="logo" class="logo">
+                    </a>
+                    <div class="h-l-btns">
+                        <div class="h-l-btn h-btn-catalog" id="catalogBtn">
+                            <p>Каталог товаров</p>
+                            <img src="assets/images/header/menu.svg" alt="menu" id="catalogIcon">
+                        </div>
+                        <div class="catalog-menu" id="catalogMenu">
+                            <!-- содержимое меню -->
+                            <div class="catalog-menu-inner">
+                                <!-- Левая панель — основные категории -->
+                                <div class="catalog-categories-wrapper">
+                                    <div class="catalog-categories">
+                                        <div class="catalog-category active" data-category="instruments">
+                                            Инструменты <img src="assets/images/shorts/arr_white.svg" alt="arr_white">
+                                        </div>
+                                        <div class="catalog-category" data-category="ventilation">
+                                            Вентиляция <img src="assets/images/shorts/arr_white.svg" alt="arr_white">
+                                        </div>
+                                        <div class="catalog-category" data-category="doors">
+                                            Двери, комплектующие, фурнитура <img
+                                                src="assets/images/shorts/arr_white.svg" alt="arr_white">
+                                        </div>
+                                        <div class="catalog-category" data-category="wood">
+                                            Древесно-плитные материалы <img src="assets/images/shorts/arr_white.svg"
+                                                alt="arr_white">
+                                        </div>
+                                        <div class="catalog-category" data-category="scaffolding">
+                                            Опалубка <img src="assets/images/shorts/arr_white.svg" alt="arr_white">
+                                        </div>
+                                        <div class="catalog-category" data-category="heating">
+                                            Отопление, водоснабжение, канализация и комплектующие <img
+                                                src="assets/images/shorts/arr_white.svg" alt="arr_white">
+                                        </div>
+                                        <div class="catalog-category" data-category="household">
+                                            Посуда и домашняя утварь <img src="assets/images/shorts/arr_white.svg"
+                                                alt="arr_white">
+                                        </div>
+                                        <div class="catalog-category" data-category="paint">
+                                            Обои <img src="assets/images/shorts/arr_white.svg" alt="arr_white">
+                                        </div>
+                                        <div class="catalog-category" data-category="composite">
+                                            Композитная арматура <img src="assets/images/shorts/arr_white.svg"
+                                                alt="arr_white">
+                                        </div>
+                                        <div class="catalog-category" data-category="fasteners">
+                                            Крепеж <img src="assets/images/shorts/arr_white.svg" alt="arr_white">
+                                        </div>
+                                        <div class="catalog-category" data-category="soil">
+                                            Лкм и грунты <img src="assets/images/shorts/arr_white.svg" alt="arr_white">
+                                        </div>
+                                        <div class="catalog-category" data-category="metal">
+                                            Металлопрокат <img src="assets/images/shorts/arr_white.svg" alt="arr_white">
+                                        </div>
+                                        <div class="catalog-category" data-category="flooring">
+                                            Напольное покрытие и комплектующие <img
+                                                src="assets/images/shorts/arr_white.svg" alt="arr_white">
+                                        </div>
+                                        <div class="catalog-category" data-category="foam">
+                                            Пена, герметики, жидкий клей <img src="assets/images/shorts/arr_white.svg"
+                                                alt="arr_white">
+                                        </div>
+                                    </div>
+                                    <div class="custom-scrollbar">
+                                        <div class="scrollbar-thumb" style="height: 161px"></div>
+                                    </div>
+                                </div>
+
+                                <!-- Правая панель — содержимое по категории -->
+                                <div class="catalog-content-wrapper">
+                                    <div class="catalog-content" id="catalogContent">
+                                        <!-- ваш контент -->
+                                    </div>
+                                    <div class="custom-scrollbar">
+                                        <div class="scrollbar-thumb" style="height: 161px"></div>
+                                    </div>
+                                </div>
+                                <button class="h-r-btn desctop-none">Задать вопрос</button>
+                            </div>
+                        </div>
+                        <div class="h-l-btn h-btn-search mobile-none">
+                            <input type="text" placeholder="Поиск по каталогу">
+                            <img src="assets/images/header/MagnifyingGlass.svg" alt="search">
+                        </div>
+                    </div>
+                </div>
+                <div class="h-right">
+                    <div class="h-r-contacts">
+                        <a href="#" class="h-r-contacts-a"> <img src="assets/images/header/RuSC6F.svg" alt="whatsapp">
+                        </a>
+                        <a href="#" class="h-r-contacts-a"> <img src="assets/images/header/Telegram - Negative.svg"
+                                alt="tg"></a>
+                        <a href="tel:+88002560720" class="h-r-a">8 800 2560-720</a>
+                    </div>
+                    <div class="h-r-btns">
+                        <button class="h-r-btn mobile-none">Задать вопрос</button>
+                        <a href="cart.html" class="circle">
+                            <img src="assets/images/header/bag.svg" alt="bag">
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="h-l-btn h-btn-search desctop-none h-btn-search-d-n">
+                <input type="text" placeholder="Поиск по каталогу">
+                <img src="assets/images/header/MagnifyingGlass.svg" alt="search">
+            </div>
+        </div>
+    </header>
+
+    <div class="bread my170 ">
+        <div class="container">
+            <div class="bread-b2b-items">
+                <a href="index.html" class="bread-crumbs">ГЛАВНая</a>
+                <p>•</p>
+                <a href="b2b.html" class="bread-crumbs bread-crumbs-orange-b2b">b2b</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="banner-b2b">
+        <div class="container">
+            <div class="banner-b2b-left">
+                <h1 class="b2b-h1">Стройматериалы для юридических лиц с гибкими условиями и <span
+                        class="txt-orange">оптовыми
+                        ценами</span>
+                </h1>
+                <p class="banner-b2b-desc">
+                    От 1 дня на поставку, работаем с НДС, предоставляем документы, индивидуальные условия для каждого
+                    партнёра.
+                </p>
+
+                <button class="product-right-basket-btn open-pred">Получить предложение</button>
+
+                <div class="banner-b2b-cards">
+                    <div class="banner-b2b-card">
+                        <div class="banner-b2b-card-img-box">
+                            <img src="assets/images/b2b/wallet-add.svg" alt="wallet-add">
+                            <hr class="banner-b2b-hr">
+                        </div>
+                        <p class="banner-b2b-card-desc">Гибкая система ценообразования</p>
+                    </div>
+
+                    <div class="banner-b2b-card">
+                        <div class="banner-b2b-card-img-box">
+                            <img src="assets/images/b2b/wallet-add.svg" alt="wallet-add">
+                            <hr class="banner-b2b-hr">
+                        </div>
+                        <p class="banner-b2b-card-desc">Гибкая система ценообразования</p>
+                    </div>
+
+                    <div class="banner-b2b-card full-width">
+                        <div class="banner-b2b-card-img-box">
+                            <img src="assets/images/b2b/wallet-add.svg" alt="wallet-add">
+                            <hr class="banner-b2b-hr">
+                        </div>
+                        <p class="banner-b2b-card-desc">Гибкая система ценообразования</p>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/images/b2b/banner.png" alt="banner" class="b2b-image">
+        </div>
+    </div>
+
+    <div class="cooperation">
+        <div class="container">
+            <h1 class="b2b-h1 mb40">Гибкие условия сотрудничества</h1>
+            <div class="cooperation-content">
+                <div class="cooperation-left">
+                    <p class="cooperation-desc">Мы предлагаем индивидуальные условия для каждого клиента, учитывая
+                        особенности вашего объекта, бюджет и сроки. Для вас доступны различные форматы оплаты —
+                        предоплата,
+                        частичная оплата или отсрочка, а также специальные цены при крупных или регулярных заказах. Все
+                        сотрудничество строится на прозрачной основе: заключаем договор с четкими условиями и
+                        обеспечиваем
+                        полный документооборот. Гибкость и надежность — наши основные принципы работы.</p>
+                    <div class="cooperation-btns">
+                        <button class="product-right-basket-btn open-pred orange-btn">Начать сотрудничество</button>
+                        <button class="product-right-basket-btn h-r-btn ">Задать вопрос</button>
+                    </div>
+                </div>
+
+                <img src="assets/images/b2b/line.png" alt="line" class="ban-img">
+            </div>
+        </div>
+    </div>
+
+    <div class="partners mt84">
+        <div class="container">
+            <h1 class="b2b-h1 mb40">С кем мы сотрудничаем</h1>
+            <div class="partners-cards">
+                <div class="partners-card">
+                    <div class="partners-card-up"><img src="assets/images/b2b/layer.svg" alt="img">
+                        <p class="partners-desc">Подрядчики и строительные компании</p>
+                    </div>
+                    <button class="product-right-basket-btn open-pred">Получить предложение</button>
+                </div>
+
+                <div class="partners-card">
+                    <div class="partners-card-up"><img src="assets/images/b2b/element-plus.svg" alt="img">
+                        <p class="partners-desc">Производственные предприятия и фабрики</p>
+                    </div>
+                    <button class="product-right-basket-btn open-pred">Получить предложение</button>
+                </div>
+
+                <div class="partners-card">
+                    <div class="partners-card-up"><img src="assets/images/b2b/house-2.svg" alt="img">
+                        <p class="partners-desc">Оптовики и розничные магазины</p>
+                    </div>
+                    <button class="product-right-basket-btn open-pred">Получить предложение</button>
+                </div>
+
+                <div class="partners-card">
+                    <div class="partners-card-up"><img src="assets/images/b2b/buildings.png" alt="img">
+                        <p class="partners-desc">Девелоперы и застройщики</p>
+                    </div>
+                    <button class="product-right-basket-btn open-pred">Получить предложение</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="job mt84">
+        <div class="container">
+            <h1 class="b2b-h1 mb40">Как начать
+                работу с нами</h1>
+            <div class="job-cards">
+                <div class="job-card job-card1">
+                    <img src="assets/images/b2b/11.svg" alt="img">
+                    <p class="job-card-desc">
+                        Оставьте <span class="txt-orange">заявку</span> или позвоните по номеру <span
+                            class="txt-orange bold">8 800 2560-720</span>
+                    </p>
+                </div>
+                <div class="job-card job-card2">
+                    <img src="assets/images/b2b/22.svg" alt="img">
+                    <p class="job-card-desc">
+                        Получите <span class="txt-orange">персональное</span> предложение на нужный товар
+                    </p>
+                </div>
+                <div class="job-card job-card3">
+                    <img src="assets/images/b2b/33.svg" alt="img">
+                    <p class="job-card-desc">
+                        Заключаем договор
+                        доставляем ваш заказ <span class="txt-orange">в срок</span>
+                    </p>
+                </div>
+                <div class="job-card job-card-cv">
+                    <div class="job-card-cv-up">
+                        <p class="job-card-title">Остались вопросы о сотрудничестве?</p>
+                        <p class="job-card-desc-cv">Не нашли нужной информации? Напишите нам – с радостью поможем!</p>
+                    </div>
+
+                    <button class="product-right-basket-btn h-r-btn">Задать вопрос</button>
+                </div>
+                <div class="job-card job-card5">
+                    <p class="job-card-desc-last">
+                        Напишите нам на
+                        любой удобный мессенджер
+                    </p>
+                    <div class="job-card-btns">
+                        <div class="f-r">
+                            <a href="#">
+                                <img src="assets/images/header/RuSC6F.svg" alt="img">
+                                <p>WhatsApp</p>
+                            </a>
+
+                            <a href="#" class="negative-a">
+                                <img src="assets/images/footer/Telegram - Negative.svg" alt="img">
+                                <p>Telegram</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="catalog-b2b mt84">
+        <div class="container">
+            <h1 class="b2b-h1 mb40">Ассортимент товаров</h1>
+            <div class="catalog-home-btns">
+                <div class="h-l-btn h-btn-search ">
+                    <img src="assets/images/header/MagnifyingGlass.svg" alt="search">
+                    <input type="text" placeholder="Поиск по каталогу">
+                </div>
+                <a href="catalog_categ.html" class="catalog-home-btn orange-btn">
+                    <p>Полный каталог</p>
+                    <button class="circle" style="background-color: #ffecdf2b;">
+                        <img src="assets/images/catalog/ArrowRight.svg" alt="arr">
+                    </button>
+                </a>
+            </div>
+            <div class="catalog-home-box catalog-b2b-box" id="scroll-catalog">
+                <div class="catalog-home-card c-h1">
+                    <div class="cat-home-top">
+                        <div class="cat-home-l">
+                            <p class="cat-home-title">
+                                Инструменты
+                            </p>
+
+                        </div>
+                        <button class="circle orange-btn">
+                            <img src="assets/images/catalog/ArrowRight.svg" alt="arr">
+                        </button>
+                    </div>
+                    <img src="assets/images/b2b/1.png" alt="img" class="cat-home-img">
+                </div>
+
+                <div class="catalog-home-card c-h2">
+                    <div class="cat-home-top">
+                        <div class="cat-home-l">
+                            <p class="cat-home-title">
+                                Пена, герметики, жидкий клей
+                            </p>
+
+                        </div>
+                        <button class="circle orange-btn">
+                            <img src="assets/images/catalog/ArrowRight.svg" alt="arr">
+                        </button>
+                    </div>
+                    <img src="assets/images/b2b/2.png" alt="img" class="cat-home-img">
+                </div>
+
+                <div class="catalog-home-card c-h3">
+                    <div class="cat-home-top">
+                        <div class="cat-home-l">
+                            <p class="cat-home-title">
+                                Инструменты
+                            </p>
+
+                        </div>
+                        <button class="circle orange-btn">
+                            <img src="assets/images/catalog/ArrowRight.svg" alt="arr">
+                        </button>
+                    </div>
+                    <img src="assets/images/b2b/3.png" alt="img" class="cat-home-img">
+                </div>
+
+                <div class="catalog-home-card c-h4">
+                    <div class="cat-home-top">
+                        <div class="cat-home-l">
+                            <p class="cat-home-title">
+                                Отопление, водоснабжение, канализация
+                            </p>
+
+                        </div>
+                        <button class="circle orange-btn">
+                            <img src="assets/images/catalog/ArrowRight.svg" alt="arr">
+                        </button>
+                    </div>
+                    <img src="assets/images/b2b/4.png" alt="img" class="cat-home-img">
+                </div>
+
+                <div class="catalog-home-card c-h5">
+                    <div class="cat-home-top">
+                        <div class="cat-home-l">
+                            <p class="cat-home-title">
+                                Печи, камины
+                            </p>
+
+                        </div>
+                        <button class="circle orange-btn">
+                            <img src="assets/images/catalog/ArrowRight.svg" alt="arr">
+                        </button>
+                    </div>
+                    <img src="assets/images/b2b/5.png" alt="img" class="cat-home-img">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="application">
+        <div class="container mt84">
+            <div class="application-box">
+                <h1>Начните сотрудничество с нами уже <span class="txt-orange">сегодня</span></h1>
+                <div class="application-right">
+                    <p class="application-title">Оставьте заявку
+                        и мы подберем наиболее эффективное решение</p>
+                    <p class="application-desc">Получите профессиональную консультацию прямо сейчас.</p>
+                    <button class="product-right-basket-btn open-pred">Оставить заявку</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <div class="f-l">
+                <div class="h-l-btn h-btn-search"> <img src="assets/images/header/MagnifyingGlass.svg" alt="search">
+                    <input type="text" placeholder="Поиск по всему каталогу">
+
+                </div>
+
+                <div class="footer-column-box">
+
+                    <div class="footer-column f-c1">
+                        <div class="f-column-up">
+                            <p class="footer-column-desc">Горячая линия</p>
+                            <div class="footer-column-t-box">
+                                <img src="assets/images/footer/Phone.svg" alt="phone">
+                                <a href="tel:+88002560720">8 800 2560-720</a>
+                            </div>
+                        </div>
+                        <div class="f-column-down">
+                            <p class="f-c-nav-title">
+                                Клиентам
+                            </p>
+                            <nav class="f-c-nav">
+                                <a href="catalog_categ.html">Каталог</a>
+                                <a href="contacts.html">Контакты</a>
+                                <a href="#">Карта партнера</a>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="footer-column f-c2">
+                        <div class="f-column-up">
+                            <p class="footer-column-desc">Напишите нам</p>
+                            <div class="footer-column-t-box">
+                                <img src="assets/images/footer/sms.svg" alt="phone">
+                                <a href="mailto:info@sskazan.ru">info@sskazan.ru</a>
+                            </div>
+                        </div>
+                        <div class="f-column-down">
+                            <p class="f-c-nav-title">
+                                Поставщкам
+                            </p>
+                            <nav class="f-c-nav">
+                                <a href="#">Документация</a>
+                                <a href="#">Устойчивое развитие</a>
+                                <a href="#">Условия сотрудничества</a>
+                            </nav>
+                        </div>
+                    </div>
+
+                    <div class="footer-column f-c3">
+                        <div class="f-column-up">
+                            <p class="footer-column-desc">Офис в <span class="white-txt"
+                                    style="color: white;">Казани</span></p>
+                            <div class="footer-column-t-box">
+                                <img src="assets/images/footer/route-square.svg" alt="phone">
+                                <p class="f-adres">Журналистов, д. 100 </p>
+                            </div>
+                        </div>
+                        <div class="f-column-down">
+                            <div class="footer-column-t-box-up">
+                                <div class="footer-column-t-box">
+                                    <img src="assets/images/footer/route-square_white.svg" alt="phone">
+                                    <p class="f-adres">1-ая Владимирская 106 </p>
+                                </div>
+                                <p class="footer-column-t-box-up-desc">Склад в <span class="white-txt"
+                                        style="color: white;">Казани</span></p>
+                            </div>
+
+                            <div class="footer-column-t-box-up">
+                                <div class="footer-column-t-box">
+                                    <img src="assets/images/footer/route-square_white.svg" alt="phone">
+                                    <p class="f-adres">Ленина, д. 140/1 </p>
+                                </div>
+                                <p class="footer-column-t-box-up-desc">Магазин в <span class="white-txt"
+                                        style="color: white;">Балтаси</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="f-politic-box">
+                    <p>© 2024 Официальный сайт StroySnab. Все права защищены</p>
+                    <a href="#" download>Политика конфиденциальности</a>
+                    <a href="#">Карта сайта</a>
+                    <div class="f-politic-everytech">
+                        <p>Разработка и продвижение</p>
+                        <img src="assets/images/footer/Frame.svg" alt="Frame">
+                    </div>
+                </div>
+            </div>
+            <div class="f-r">
+                <a href="#">
+                    <img src="assets/images/header/RuSC6F.svg" alt="img">
+                    <p>WhatsApp</p>
+                </a>
+
+                <a href="#" class="negative-a">
+                    <img src="assets/images/footer/Telegram - Negative.svg" alt="img">
+                    <p>Telegram</p>
+                </a>
+
+                <a href="#" class="negative-a">
+                    <img src="assets/images/footer/tube.svg" alt="img">
+                    <p>YouTube</p>
+                </a>
+
+                <a href="#" class="negative-a">
+                    <img src="assets/images/footer/vk.svg" alt="img">
+                    <p>Вконтакте</p>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="modal" style="display: none;">
+        <div class="modal-content">
+            <!-- Форма -->
+            <div class="modal-form" id="modalForm">
+                <div class="modal-header">
+                    <h2>Задайте вопрос</h2>
+                    <p>задайте вопрос, наш менеджер <br> перезвонит, чтобы уточнить детали</p>
+                    <img src="assets/images/header/close-circle-orange.svg" alt="close" class="close">
+                </div>
+
+                <form id="questionForm">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Сергеев Александр" required>
+                        <div class="error-message" id="name-error"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Ваш номер телефона</label>
+                        <input type="tel" id="phone" placeholder="+7 (___) ___-__-__" required>
+                        <div class="error-message" id="phone-error"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Ваша электронная почта</label>
+                        <input type="email" id="email" placeholder="example@mail.ru" required>
+                        <div class="error-message" id="email-error"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Ваш вопрос</label>
+                        <textarea id="message" placeholder="Подскажите пожалуйста.." rows="4" required></textarea>
+                        <div class="error-message" id="message-error"></div>
+                    </div>
+
+                    <div class="form-group checkbox">
+                        <div class="checkbox-box"> <input type="checkbox" id="agree" required>
+                            <label for="agree">
+                                <a href="assets/documents/privacy_policy.pdf" download>
+                                    Я согласен на
+                                    <span class="unde"> обработку персональных данных</span>
+                                </a>
+                            </label>
+                        </div>
+
+                        <div class="error-message" id="agree-error"></div>
+                    </div>
+
+                    <div class="btn-box-form">
+                        <button type="submit" class="submit-btn">Задать вопрос</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Сообщение об успешной отправке -->
+            <div class="modal-success" id="modalSuccess" style="display: none;">
+                <div class="modal-header">
+                    <h2>Заявка отправлена</h2>
+                    <p>вот-вот наш менеджер перезвонит,<br> чтобы ответить на ваш вопрос</p>
+                    <img src="assets/images/header/close-circle-orange.svg" alt="close" class="close">
+
+                </div>
+                <div class="success-content">
+                    <img src="assets/images/header/tick-square.svg" alt="Успешно">
+                    <button class=" submit-btn" onclick="closeModal()">Отлично, жду</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal-pred" style="display: none;">
+        <div class="modal-content">
+            <!-- Форма -->
+            <div class="modal-form" id="predFormContainer">
+                <div class="modal-header">
+                    <h2>Получить предложение</h2>
+                    <p>оставьте заявку, наш менеджер <br> перезвонит, чтобы уточнить детали</p>
+                    <img src="assets/images/header/close-circle-orange.svg" alt="close" class="close">
+                </div>
+
+                <form id="predForm">
+                    <div class="form-group">
+                        <label for="pred-name">Ваше имя</label>
+                        <input type="text" id="pred-name" placeholder="Сергеев Александр" required>
+                        <div class="error-message" id="pred-name-error"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pred-phone">Ваш номер телефона</label>
+                        <input type="tel" id="pred-phone" placeholder="+7 (___) ___-__-__" required>
+                        <div class="error-message" id="pred-phone-error"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pred-email">Ваша электронная почта</label>
+                        <input type="email" id="pred-email" placeholder="example@mail.ru" required>
+                        <div class="error-message" id="pred-email-error"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="pred-message">Комментарий к заявке</label>
+                        <textarea id="pred-message" placeholder="Нас интересует.. " rows="4" required></textarea>
+                        <div class="error-message" id="pred-message-error"></div>
+                    </div>
+
+                    <div class="form-group checkbox">
+                        <div class="checkbox-box">
+                            <input type="checkbox" id="pred-agree" required>
+                            <label for="pred-agree">
+                                <a href="assets/documents/privacy_policy.pdf" download>
+                                    Я согласен на
+                                    <span class="unde"> обработку персональных данных</span>
+                                </a>
+                            </label>
+                        </div>
+                        <div class="error-message" id="pred-agree-error"></div>
+                    </div>
+
+                    <div class="btn-box-form">
+                        <button type="submit" class="submit-btn">Получить предложение</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Успешная отправка -->
+            <div class="modal-success" id="predSuccess" style="display: none;">
+                <div class="modal-header">
+                    <h2>Заявка отправлена</h2>
+                    <p>вот-вот наш менеджер перезвонит,<br> чтобы уточнить детали</p>
+                    <img src="assets/images/header/close-circle-orange.svg" alt="close" class="close">
+                </div>
+                <div class="success-content">
+                    <img src="assets/images/header/tick-square.svg" alt="Успешно">
+                    <button class="submit-btn" onclick="closePredModal()">Отлично, жду</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
